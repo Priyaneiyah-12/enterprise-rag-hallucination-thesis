@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pyarrow
+torch
+transformers
+sentence-transformers
+accelerate
+tqdm
+requests
