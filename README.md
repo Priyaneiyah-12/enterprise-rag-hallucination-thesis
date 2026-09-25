@@ -3,7 +3,7 @@
 **Master's Thesis Implementation**  
 **Author:** Priyaneiyah Selvakumar  
 **Programme:** M.Sc. Data Science, AI and Digital Business  
-**Institution:** GISMA University of Applied Sciences
+**Institution:** GISMA University of Applied Sciences  
 
 ## Overview
 
@@ -26,7 +26,14 @@ The experiments examine:
 - reranking
 - generation configurations
 
-Retrieval performance is evaluated using measures including nDCG@5, Recall@20, MRR and gold-span coverage.
+Retrieval performance is evaluated using measures including:
+
+- nDCG@5
+- Recall@20
+- MRR
+- gold-span coverage
+
+The RQ1 experiments are organised as a sequential pipeline, beginning with shared dataset/index preparation and followed by chunking, retrieval, reranking, generation and final RQ1 analysis.
 
 ### RQ2 — Stage Attribution
 
@@ -73,15 +80,15 @@ Large dataset files, model weights, generated caches and intermediate experiment
 enterprise-rag-hallucination-thesis/
 │
 ├── notebooks/
-│   ├── RQ1_00_Build_Once.ipynb
-│   ├── RQ1_A_Chunking_Method.ipynb
-│   ├── RQ1_B_Retrieval_Strategy.ipynb
-│   ├── RQ1_C_Reranking.ipynb
-│   ├── RQ1_D_Generation_Profile.ipynb
-│   ├── RQ1_E_Answer_RQ1.ipynb
-│   ├── RQ2_0_Segmentation_Ceiling.ipynb
-│   ├── RQ2_Stage_Attribution.ipynb
-│   └── RQ3_Certainty_Calibration.ipynb
+│   ├── RQ1_00_Build_Once_thesis.ipynb
+│   ├── RQ1_A_Chunking_Method_thesis.ipynb
+│   ├── RQ1_B_Retrieval_Strategy_thesis.ipynb
+│   ├── RQ1_C_Reranking_thesis.ipynb
+│   ├── RQ1_D_Generation_Profile_thesis.ipynb
+│   ├── RQ1_E_Answer_RQ1_thesis.ipynb
+│   ├── RQ2_0_Segmentation_Ceiling_thesis.ipynb
+│   ├── RQ2_Stage_Attribution_thesis.ipynb
+│   └── RQ3_Certainty_Calibration_thesis.ipynb
 │
 ├── src/
 │   ├── rq1_core.py
